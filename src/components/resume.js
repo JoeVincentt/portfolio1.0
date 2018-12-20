@@ -10,15 +10,7 @@ class Resume extends Component {
       <div>
         <Grid>
           <Cell col={4}>
-            <div style={{ textAlign: "center" }}>
-              <img
-                src="https://www.shareicon.net/download/2015/09/18/103157_man_512x512.png"
-                alt="avatar"
-                style={{ height: "200px" }}
-              />
-            </div>
-
-            <h2 style={{ paddingTop: "2em" }}>Eugene Butenko</h2>
+            <h2 style={{ paddingTop: "20px" }}>Eugene Butenko</h2>
             <h4 style={{ color: "grey" }}>Software Developer</h4>
             <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
             <p>
@@ -116,10 +108,13 @@ class Resume extends Component {
             />
             <hr style={{ borderTop: "3px solid #e22947" }} /> */}
             <h2>Skills</h2>
-            <Skills skill="javascript" progress={100} />
+            <Skills skill="React" progress={80} />
+            <Skills skill="Redux" progress={80} />
+            <Skills skill="JavaScript" progress={80} />
             <Skills skill="HTML/CSS" progress={80} />
             <Skills skill="NodeJS" progress={50} />
-            <Skills skill="React" progress={25} />
+            <Skills skill="MongoDB" progress={50} />
+            <Skills skill="Python" progress={40} />
           </Cell>
         </Grid>
       </div>
