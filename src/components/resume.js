@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
 import Certification from "./certification";
-import Experience from "./experience";
+// import Experience from "./experience";
 import Skills from "./skills";
 
 class Resume extends Component {
@@ -56,7 +56,7 @@ class Resume extends Component {
               resource={"edX"}
               schoolName="Microsoft Certification:"
               schoolDescription={
-                <ul>
+                <div>
                   <li>Python: Absolute Beginner</li>
                   <li>Python: Fundamentals</li>
                   <li>Logic and Computational Thinking</li>
@@ -70,7 +70,7 @@ class Resume extends Component {
                   <li>Designing a Technical Solution</li>
                   <li>Code Solutions</li>
                   <li>Computer Science</li>
-                </ul>
+                </div>
               }
             />
 
@@ -78,14 +78,14 @@ class Resume extends Component {
               resource={"Udemy"}
               schoolName="Online Certification:"
               schoolDescription={
-                <ul>
+                <div>
                   <li>
                     React 16.6 - The Complete Guide (incl. React Router & Redux)
                   </li>
                   <li>React Front To Back</li>
                   <li>Modern JavaScript From The Beginning</li>
                   <li>Node.js, Express & MongoDB Dev to Deployment</li>
-                </ul>
+                </div>
               }
             />
 
