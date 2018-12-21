@@ -52,6 +52,8 @@ body {
 
 .projects-grid {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Resume Page css */
@@ -189,6 +191,12 @@ body {
 }
 
 @media (max-width: 1080px) {
+  .projects-grid {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+
   .banner-text h1 {
     font-size: 36px;
   }

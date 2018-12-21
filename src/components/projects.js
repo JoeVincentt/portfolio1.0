@@ -24,7 +24,7 @@ class Projects extends Component {
       return (
         <div className="projects-grid">
           {/* Project 1 */}
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+          <Card shadow={5} style={{ minWidth: "450", margin: "20px 20px" }}>
             <CardTitle
               style={{
                 color: "#fff",
@@ -56,7 +56,7 @@ class Projects extends Component {
           </Card>
 
           {/* Project 2 */}
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+          <Card shadow={5} style={{ minWidth: "450", margin: "20px 20px" }}>
             <CardTitle
               style={{
                 color: "black",
@@ -89,7 +89,11 @@ class Projects extends Component {
           </Card>
 
           {/* Project 3 */}
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+          <Card
+            className="card"
+            shadow={5}
+            style={{ minWidth: "450", margin: "20px 20px" }}
+          >
             <CardTitle
               style={{
                 color: "black",
@@ -126,7 +130,7 @@ class Projects extends Component {
       return (
         <div className="projects-grid">
           {/* Project 3 */}
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+          <Card shadow={5} style={{ minWidth: "450", margin: "20px 20px" }}>
             <CardTitle
               style={{
                 color: "#fff",
@@ -159,7 +163,7 @@ class Projects extends Component {
             </CardMenu>
           </Card>
           {/* Project 3 */}
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+          <Card shadow={5} style={{ minWidth: "450", margin: "20px 20px" }}>
             <CardTitle
               style={{
                 color: "#fff",
@@ -192,7 +196,7 @@ class Projects extends Component {
             </CardMenu>
           </Card>
           {/* Project 3 */}
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+          <Card shadow={5} style={{ minWidth: "450", margin: "20px 20px" }}>
             <CardTitle
               style={{
                 color: "#fff",
@@ -230,7 +234,7 @@ class Projects extends Component {
       return (
         <div className="projects-grid">
           {/* Project 3 */}
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+          <Card shadow={5} style={{ minWidth: "450", margin: "20px 20px" }}>
             <CardTitle
               style={{
                 color: "#fff",
@@ -262,7 +266,7 @@ class Projects extends Component {
             </CardMenu>
           </Card>
           {/* Project 3 */}
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+          <Card shadow={5} style={{ minWidth: "450", margin: "20px 20px" }}>
             <CardTitle
               style={{
                 color: "#fff",
