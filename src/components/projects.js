@@ -28,21 +28,27 @@ class Projects extends Component {
             <CardTitle
               style={{
                 color: "#fff",
-                height: "176px",
-                background:
-                  "url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover"
+                height: "200px",
+                background: "url(/images/burgerbuilder.png) center / cover"
               }}
-            >
-              React Project #1
-            </CardTitle>
+            />
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's
+              Burger Builder, built with React, Redux, based on Firebase, basic
+              CSS, CRD application.
             </CardText>
-            <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
+            <CardActions border style={{ textAlign: "center" }}>
+              <Button colored>
+                <a
+                  href="https://github.com/JoeVincentt/BurgerBuilder"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i
+                    style={{ fontSize: "40px", color: "purple" }}
+                    className="fa fa-github"
+                  />
+                </a>
+              </Button>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
               <IconButton name="share" />
@@ -53,22 +59,29 @@ class Projects extends Component {
           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
             <CardTitle
               style={{
-                color: "#fff",
-                height: "176px",
-                background:
-                  "url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover"
+                color: "black",
+                height: "200px",
+                background: "url(/images/clientpanel.png) center / cover"
               }}
-            >
-              React Project #2
-            </CardTitle>
+            />
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's
+              Client Panel built with React, Redux, Bootstrap and
+              Firebase(Firestore). Full CRUD application.
             </CardText>
-            <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
+            <CardActions border style={{ textAlign: "center" }}>
+              <Button colored>
+                {" "}
+                <a
+                  href="https://github.com/JoeVincentt/client_panel_firebase_react"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i
+                    style={{ fontSize: "40px", color: "purple" }}
+                    className="fa fa-github"
+                  />
+                </a>
+              </Button>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
               <IconButton name="share" />
@@ -79,22 +92,29 @@ class Projects extends Component {
           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
             <CardTitle
               style={{
-                color: "#fff",
-                height: "176px",
-                background:
-                  "url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover"
+                color: "black",
+                height: "200px",
+                background: "url(/images/contactmanager.png) center / cover",
+                position: "center"
               }}
-            >
-              React Project #3
-            </CardTitle>
+            />
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's
+              Contact Manager, keep your contacts up to date. React, Redux.
             </CardText>
-            <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
+            <CardActions border style={{ textAlign: "center" }}>
+              <Button colored>
+                {" "}
+                <a
+                  href="https://github.com/JoeVincentt/contactmanager"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i
+                    style={{ fontSize: "40px", color: "purple" }}
+                    className="fa fa-github"
+                  />
+                </a>
+              </Button>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
               <IconButton name="share" />
@@ -110,21 +130,29 @@ class Projects extends Component {
             <CardTitle
               style={{
                 color: "#fff",
-                height: "176px",
-                background:
-                  "url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover"
+                height: "200px",
+                background: "url(/images/GitHubFinder.png) center / cover",
+                position: "center"
               }}
-            >
-              React Project #3
-            </CardTitle>
+            />
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's
+              Vanilla JavaScript application. You can find GitHub user and see
+              their info and recent repositories.
             </CardText>
-            <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
+            <CardActions border style={{ textAlign: "center" }}>
+              <Button colored>
+                {" "}
+                <a
+                  href="https://github.com/JoeVincentt/GitHub-Finder"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i
+                    style={{ fontSize: "40px", color: "purple" }}
+                    className="fa fa-github"
+                  />
+                </a>
+              </Button>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
               <IconButton name="share" />
@@ -135,21 +163,29 @@ class Projects extends Component {
             <CardTitle
               style={{
                 color: "#fff",
-                height: "176px",
-                background:
-                  "url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover"
+                height: "200px",
+                background: "url(/images/weatherjs.png) center / cover",
+                position: "center"
               }}
-            >
-              React Project #3
-            </CardTitle>
+            />
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's
+              WeatherJS is using OpenWeatherAPI. Vanilla JavaScript. Made a
+              connections so you can use it in different language.
             </CardText>
-            <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
+            <CardActions border style={{ textAlign: "center" }}>
+              <Button colored>
+                {" "}
+                <a
+                  href="https://github.com/JoeVincentt/edxWeatherJS"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i
+                    style={{ fontSize: "40px", color: "purple" }}
+                    className="fa fa-github"
+                  />
+                </a>
+              </Button>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
               <IconButton name="share" />
@@ -160,21 +196,29 @@ class Projects extends Component {
             <CardTitle
               style={{
                 color: "#fff",
-                height: "176px",
-                background:
-                  "url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover"
+                height: "200px",
+                background: "url(/images/wordbeater.png) center / cover",
+                position: "center"
               }}
-            >
-              React Project #3
-            </CardTitle>
+            />
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's
+              Words Beater has 3 difficult levels, you should type words in some
+              amount of time to score the best score. Vanilla JavaScript.
             </CardText>
-            <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
+            <CardActions border style={{ textAlign: "center" }}>
+              <Button colored>
+                {" "}
+                <a
+                  href="https://github.com/JoeVincentt/WordsSpeed-1.1"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i
+                    style={{ fontSize: "40px", color: "purple" }}
+                    className="fa fa-github"
+                  />
+                </a>
+              </Button>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
               <IconButton name="share" />
@@ -190,21 +234,28 @@ class Projects extends Component {
             <CardTitle
               style={{
                 color: "#fff",
-                height: "176px",
-                background:
-                  "url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover"
+                height: "200px",
+                background: "url(/images/StoryTeller.png) center / cover"
               }}
-            >
-              React Project #3
-            </CardTitle>
+            />
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's
+              Story Teller Node.js, Express and MongoDB, GoogleAuth20. Share
+              stories with others or keep it private to yourself.
             </CardText>
-            <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
+            <CardActions border style={{ textAlign: "center" }}>
+              <Button colored>
+                {" "}
+                <a
+                  href="https://github.com/JoeVincentt/StoryTeller-1.0"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i
+                    style={{ fontSize: "40px", color: "purple" }}
+                    className="fa fa-github"
+                  />
+                </a>
+              </Button>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
               <IconButton name="share" />
@@ -215,46 +266,26 @@ class Projects extends Component {
             <CardTitle
               style={{
                 color: "#fff",
-                height: "176px",
-                background:
-                  "url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover"
+                height: "200px",
+                background: "url(/images/Vidjot.png) center / cover"
               }}
-            >
-              React Project #3
-            </CardTitle>
+            />
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's
+              VidJot app for sharing video ideas. Node.js, Express. One of mine
+              course projects.
             </CardText>
-            <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
-            </CardActions>
-            <CardMenu style={{ color: "#fff" }}>
-              <IconButton name="share" />
-            </CardMenu>
-          </Card>
-          {/* Project 3 */}
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
-            <CardTitle
-              style={{
-                color: "#fff",
-                height: "176px",
-                background:
-                  "url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover"
-              }}
-            >
-              React Project #3
-            </CardTitle>
-            <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's
-            </CardText>
-            <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
+            <CardActions border style={{ textAlign: "center" }}>
+              <Button colored>
+                {" "}
+                <a
+                  href="https://arcane-river-43353.herokuapp.com/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  style={{ fontSize: "15px", color: "purple" }}
+                >
+                  Heroku
+                </a>
+              </Button>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
               <IconButton name="share" />

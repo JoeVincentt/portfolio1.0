@@ -30,7 +30,11 @@ class Resume extends Component {
             <p>eugene.bb@hotmail.com</p>
             <h5>LinkedIn</h5>
             <p>
-              <a href="https://www.linkedin.com/in/yevhenii-butenko/">
+              <a
+                href="https://www.linkedin.com/in/yevhenii-butenko/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
                 <i
                   style={{ fontSize: "50px", color: "#0077B5" }}
                   className="fa fa-linkedin"
@@ -39,7 +43,11 @@ class Resume extends Component {
             </p>
             <h5>GitHub</h5>
             <p>
-              <a href="https://github.com/JoeVincentt">
+              <a
+                href="https://github.com/JoeVincentt"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
                 <i
                   style={{ fontSize: "50px", color: "purple" }}
                   className="fa fa-github"
@@ -94,6 +102,7 @@ class Resume extends Component {
             <Skills skill="Redux" progress={80} />
             <Skills skill="JavaScript" progress={80} />
             <Skills skill="HTML/CSS" progress={80} />
+            <Skills skill="Git" progress={60} />
             <Skills skill="NodeJS" progress={50} />
             <Skills skill="MongoDB" progress={50} />
             <Skills skill="Python" progress={40} />
