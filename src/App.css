@@ -59,6 +59,13 @@ body {
   background: #27221f;
   color: white;
   padding: 2em;
+  -webkit-box-shadow: 6px 4px 175px 1px rgba(109, 48, 112, 1);
+  -moz-box-shadow: 6px 4px 175px 1px rgba(109, 48, 112, 1);
+  box-shadow: 6px 4px 175px 1px rgba(109, 48, 112, 1);
+  border-radius: 53px 0px 0px 0px;
+  -moz-border-radius: 53px 0px 0px 0px;
+  -webkit-border-radius: 53px 0px 0px 0px;
+  border: 4px inset #8e21c4;
 }
 
 /* contact page css */
@@ -80,6 +87,10 @@ body {
   background: white;
   color: black;
   margin-bottom: 20px;
+  border-radius: 30px;
+  -webkit-box-shadow: 10px -12px 83px 17px rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: 10px -12px 83px 17px rgba(0, 0, 0, 0.35);
+  box-shadow: 10px -12px 83px 17px rgba(0, 0, 0, 0.35);
 }
 
 .contact-grid h2 {
@@ -171,9 +182,15 @@ body {
   font-family: "Anton";
 }
 
+.banner-text {
+  -webkit-box-shadow: 10px -12px 83px 17px rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: 10px -12px 83px 17px rgba(0, 0, 0, 0.35);
+  box-shadow: 10px -12px 83px 17px rgba(0, 0, 0, 0.35);
+}
+
 @media (max-width: 1080px) {
   .contact-grid {
-    height: 80vh;
+    height: 50vh;
   }
   .contact-body {
     padding-top: 6em;
