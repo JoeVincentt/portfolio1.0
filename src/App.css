@@ -189,6 +189,24 @@ body {
 }
 
 @media (max-width: 1080px) {
+  .banner-text h1 {
+    font-size: 36px;
+  }
+
+  .banner-text p {
+    color: white;
+    font-size: 12px;
+    padding: 1em;
+  }
+
+  .social-links i {
+    font-size: 3em;
+  }
+  #avatar-landing {
+    height: 140px;
+    padding-top: 5em;
+    text-align: center;
+  }
   .contact-grid {
     height: 50vh;
   }
