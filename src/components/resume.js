@@ -10,7 +10,7 @@ class Resume extends Component {
       <div>
         <Grid>
           <Cell col={4}>
-            <h2 style={{ paddingTop: "20px" }}>Eugene Butenko</h2>
+            <h2 style={{ paddingTop: "25px" }}>Eugene Butenko</h2>
             <h4 style={{ color: "grey" }}>Software Developer</h4>
             <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
             <p>

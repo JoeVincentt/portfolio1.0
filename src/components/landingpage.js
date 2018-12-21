@@ -6,9 +6,11 @@ class Landing extends Component {
     return (
       <div style={{ width: "100%", margin: "auto" }}>
         <Grid className="landing-grid">
-          <Cell col={12} style={{ paddingTop: "15em" }}>
+          <Cell col={12}>
+            {" "}
+            <img id="avatar-landing" src="/images/avatar.svg" alt="avatar" />
             <div className="banner-text">
-              <h1>Full Stack Web Developer</h1>
+              <h1 id="h1-landing">Full Stack Web Developer</h1>
 
               <hr />
 
