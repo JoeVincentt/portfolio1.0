@@ -216,10 +216,15 @@ body {
     text-align: center;
   }
   .contact-grid {
-    height: 70vh;
+    height: 80vh;
   }
   .contact-body {
-    padding-top: 6em;
+    padding-top: 3em;
+  }
+  .contact-list i {
+    font-size: 30px;
+    padding-right: 1rem;
+    padding-left: 8rem;
   }
   #Avatar {
     height: 200px;
@@ -260,12 +265,11 @@ body {
   }
 }
 
-@media (max-width: 420px) {
-  .fa.fa-phone-square {
-    display: none;
-  }
-  .fa.fa-envelope {
-    display: none;
+@media (max-width: 495px) {
+  .contact-list i {
+    font-size: 20px;
+    padding-right: 5px;
+    padding-left: 10px;
   }
   #Phone {
     text-align: center;
