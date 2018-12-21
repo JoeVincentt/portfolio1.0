@@ -30,7 +30,11 @@ class App extends Component {
           </Header>
           <Drawer
             title={
-              <Link style={{ textDecoration: "none", color: "black" }} to="/">
+              <Link
+                style={{ textDecoration: "none", color: "black" }}
+                to="/"
+                onClick={() => this.hideToggle()}
+              >
                 <i className="fa fa-briefcase" /> Eugene Butenko
               </Link>
             }
