@@ -14,7 +14,8 @@ class App extends Component {
       <div className="demo-big-content">
         <Layout>
           <Header
-            className="header-color"
+            transparent
+            className=""
             title={
               <Link style={{ textDecoration: "none", color: "white" }} to="/">
                 <i className="fa fa-briefcase" /> Eugene Butenko

@@ -13,19 +13,15 @@ class Resume extends Component {
             <h4>Full Stack Web Developer</h4>
             <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
             <p>
-              Highly motivated, love to code, being coding as my a hobby for a
-              year, now I'm looking forward and want to turn my hobby into my
-              profession. We live in the age when technology is changing so
-              fast. I believe knowing something not that important, more
-              important part is to be able to learn new things and be open for
-              changes!!! "Live&Study as if you were to die tomorrow. Learn as if
-              you were to live forever." Mahatma Gandhi
+              Highly motivated, love to code, being coding for a year, now I'm
+              looking forward and want to turn it into my profession. We live in
+              the age when technology is changing so fast. I believe knowing
+              something not that important, more important part is to be able to
+              learn new things and be open for changes!
             </p>
             <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
             <h5>Address</h5>
             <p>821C Westwood Ave, Bethany Beach, DE, 19970, United States</p>
-            <h5>Phone</h5>
-            <p>+1 (302) 430-1160</p>
             <h5>Email</h5>
             <p>eugene.bb@hotmail.com</p>
             <h5>LinkedIn</h5>
